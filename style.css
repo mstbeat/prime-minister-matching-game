@@ -1,0 +1,49 @@
+body {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+}
+.title{
+  margin: 20px 0 0 50px;
+  text-align: center;
+}
+.message{
+  font-size: 1.5em;
+  margin: 20px 0 0 50px;
+  text-align: center;
+}
+.rule{
+  margin: 0 0 0 50px;
+  color: red;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+#images, #droparea {
+  display: inline-block;
+  padding: 50px;
+}
+#images div, #droparea div {
+  width: 130px;
+  height: 150px;
+  border: 4px solid black;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+#droparea div {
+  line-height: 130px;
+}
+#images div img {
+  width: 80%;
+  height: 80%;
+}
